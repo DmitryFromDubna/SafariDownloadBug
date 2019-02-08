@@ -33,7 +33,7 @@ const httpServer = http.createServer(function(req, res) {
   headers.forEach(function(header){
     res.setHeader(header.name, header.value);
   });
-  res.end('Hello https');
+  res.end('Hello http1');
 });
 
 const httpsServer = https.createServer(options, function(req, res) {
