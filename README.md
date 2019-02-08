@@ -1,4 +1,4 @@
-# SafariDownloadBug
+# safari-download-bug
 Reproduces an issue with file downloading in Safari. Long file names get broken during download, when using http/1 or http/1 with https.
 
 node app.js
